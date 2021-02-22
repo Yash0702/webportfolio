@@ -6,6 +6,17 @@ html, body{
   font-family: 'Poppins', sans-serif;
   color: #222222;
 }
+.loader-wrapper{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #242f3f;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .navbar{
   padding: .8rem;
 }
@@ -80,8 +91,8 @@ html, body{
 .fa-twitter{
   color: #00aced;
 }
-.fa-google-plus{
-  color: #dd4b39;
+.fa-discord{
+  color: #497086;
 }
 .fa-instagram{
   color: #f03090;
@@ -91,7 +102,7 @@ html, body{
 }
 .fa-linkedin:hover,
 .fa-twitter:hover,
-.fa-telegram:hover,
+.fa-discord:hover,
 .fa-instagram:hover,
 .fa-facebook:hover{
   color: #d5d5d5;
