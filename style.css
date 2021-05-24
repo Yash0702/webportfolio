@@ -122,13 +122,13 @@ html, body{
 .fas fa-microchip{
   color: black;
 }
-.fad fa-blog{
+.fab fa-react{
+  color: blue;
+}
+.fab fa-battle-net{
   color: orange;
 }
-.fad fa-drafting-compass{
-  color: magenta;
-}
-.fa-anchor, .fa-camera-retro, .fa-cogs, .fad fa-blog, .fad fa-drafting-compass, .fas fa-microchip{
+.fa-anchor, .fa-camera-retro, .fa-cogs, .fab fa-react, .fab fa-battle-net, .fas fa-microchip{
   font-size: 4em;
   margin: 1rem;
 }
