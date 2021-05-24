@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Reggae+One&display=swap');
 
 html, body{
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Reggae One', sans-serif;
   color: #222222;
 }
 .loader-wrapper{
@@ -119,16 +122,16 @@ html, body{
 .fa-cogs{
   color: indigo;
 }
-.fas fa-microchip{
+.fa-microchip{
   color: black;
 }
-.fab fa-react{
+.fa-react{
   color: blue;
 }
-.fab fa-battle-net{
-  color: orange;
+.fa-wrench{
+  color: rgb(255, 81, 0);
 }
-.fa-anchor, .fa-camera-retro, .fa-cogs, .fab fa-react, .fab fa-battle-net, .fas fa-microchip{
+.fa-anchor, .fa-camera-retro, .fa-cogs, .fa-react, .fa-wrench, .fa-microchip{
   font-size: 4em;
   margin: 1rem;
 }
@@ -265,19 +268,12 @@ will-change: transform;
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
 Small (sm) devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
-
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
-
 Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
-
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
