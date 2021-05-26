@@ -94,7 +94,7 @@ html, body{
 .fa-twitter{
   color: #00aced;
 }
-.fa-discord{
+.fa-github{
   color: #497086;
 }
 .fa-instagram{
@@ -105,7 +105,7 @@ html, body{
 }
 .fa-linkedin:hover,
 .fa-twitter:hover,
-.fa-discord:hover,
+.fa-github:hover,
 .fa-instagram:hover,
 .fa-facebook:hover{
   color: #d5d5d5;
