@@ -9,16 +9,12 @@ html, body{
   font-family: 'Reggae One', sans-serif;
   color: #222222;
 }
-.loader-wrapper{
-  height: 100%;
+#loading{
   width: 100%;
-  position: absolute;
-  background-color: #242f3f;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
+  background: #fff url('loader\ wrapper.gif') no-repeat center;
+  position: fixed;
+  z-index: 9999;
 }
 .navbar{
   padding: .8rem;
@@ -94,7 +90,7 @@ html, body{
 .fa-twitter{
   color: #00aced;
 }
-.fa-github{
+.fa-discord{
   color: #497086;
 }
 .fa-instagram{
@@ -105,7 +101,7 @@ html, body{
 }
 .fa-linkedin:hover,
 .fa-twitter:hover,
-.fa-github:hover,
+.fa-discord:hover,
 .fa-instagram:hover,
 .fa-facebook:hover{
   color: #d5d5d5;

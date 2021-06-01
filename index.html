@@ -25,7 +25,10 @@
     <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="loading()">
+    <div id="loading">
+
+    </div>
     <!--Navigation-->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
@@ -113,7 +116,7 @@
             <a href="https://www.instagram.com/yash_7022/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com/profile.php?id=100011361280244"><i class="fab fa-facebook" aria-hidden="true"></i></a>
             <a href="https://twitter.com/PYashwanth0702"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://github.com/Yash0702"><i class="fab fa-github"></i></a>
+            <a href="Yâ&h0722#7342"><i class="fab fa-discord"></i></a>
         </div>
         </div>
         </div>
@@ -211,11 +214,11 @@
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img class="card-img-top" src="7.jpg">
+                <img class="card-img-top" src="JS.jpg">
                 <div class="card-body">
-                    <h4 class="card-title">C++ Programming</h4>
-                    <p class="card-text">C++ being extension to C-Language, is advanced version of C and I have learnt Data Structures through C++ in my second semester.</p>
-                    <a href="https://www.udemy.com/course/free-learn-c-tutorial-beginners/" class="btn btn-outline-secondary">Learn C++</a>
+                    <h4 class="card-title">JavaScript</h4>
+                    <p class="card-text">Javascript is known as the language of web. JS being one of the popular programmming languages for website backend mechanisms, I have made a step towards elementary knowledge of vanilla JS and exploring NodeJS, ReactJS</p>
+                    <a href="https://www.w3schools.com/js/" class="btn btn-outline-secondary">Learn C++</a>
                 </div>
             </div>
         </div>
@@ -252,7 +255,7 @@
             <div class="col-md-4">
                 <img src="1.jpg">
                 <hr class="light">
-                <a href="https://github.com/Yash0702" class="btn btn-outline-secondary">GitHub Profile</a>
+                <a href="https://www.linkedin.com/in/yashwanth-p-6564131aa/" class="btn btn-outline-secondary">Linkedin Profile</a>
                 <hr class="light">
                 <p>yashyashwanth02@gmail.com</p>
                 <p>139 BK Enclave</p>
@@ -282,5 +285,21 @@
         </div>
         </div>
     </footer>
+<script> 
+var preloader = document.getElementById('loading');
+(function($){
+  'use strict';
+    $(window).on('load', function () {
+        if ($(".preloader").length > 0)
+        {
+            $(".preloader").fadeOut("slow");
+        }
+    });
+})(jQuery)
+function loading(){
+    preloader.style.display = 'none';
+}
+
+</script>
 </body>
 </html>
