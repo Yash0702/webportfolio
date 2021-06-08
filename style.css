@@ -198,7 +198,7 @@ hr.light-100{
 }
 }
 #port{
-  padding-left= 3rem;
+  padding-left= 6em;
 }
 @media (max-width: 576px) {
 .carousel-caption{
@@ -232,7 +232,7 @@ hr.light-100{
 }
 }
 #port{
-  padding-left= 5rem;
+  padding-left= 7em;
 }
 /*---Firefox Bug Fix --*/
 .carousel-item {
