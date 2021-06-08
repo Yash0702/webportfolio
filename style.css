@@ -25,6 +25,14 @@ html, body{
 .nav-link{
   font-size: 1.1em !important;
 }
+.navbar .animated_icon {
+    content: "";
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background-image: url(/assets/globe_with_satellites.svg);
+    background-repeat: no-repeat;
+}
 .carousel-inner img{
   width: 100%;
   height: 100%;
@@ -90,7 +98,7 @@ html, body{
 .fa-twitter{
   color: #00aced;
 }
-.fa-github{
+.fa-discord{
   color: #497086;
 }
 .fa-instagram{
@@ -101,7 +109,7 @@ html, body{
 }
 .fa-linkedin:hover,
 .fa-twitter:hover,
-.fa-github:hover,
+.fa-discord:hover,
 .fa-instagram:hover,
 .fa-facebook:hover{
   color: #d5d5d5;
