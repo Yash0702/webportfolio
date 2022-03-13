@@ -117,11 +117,11 @@ html, body{
 .project{
   margin-bottom: 1rem;
 }
-.fa-anchor{
+.fa-transformer-bolt{
   color: crimson;
 }
-.fa-camera-retro{
-  color: rgb(73, 213, 255);
+.fa-traffic-light-go{
+  color: green;
 }
 .fa-cogs{
   color: indigo;
@@ -135,7 +135,7 @@ html, body{
 .fa-wrench{
   color: rgb(255, 81, 0);
 }
-.fa-anchor, .fa-camera-retro, .fa-cogs, .fa-react, .fa-wrench, .fa-microchip{
+.fa-transformer-bolt, .fa-traffic-light-go, .fa-cogs, .fa-react, .fa-wrench, .fa-microchip{
   font-size: 4em;
   margin: 1rem;
 }
